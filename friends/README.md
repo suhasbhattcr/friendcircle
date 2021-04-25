@@ -45,7 +45,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 ## Swagger Documentation/API Documentaion
-<server>/api
+http://[server]:3000/api
 
 ## Test
 
