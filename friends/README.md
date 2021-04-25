@@ -44,6 +44,8 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+## Swagger Documentation/API Documentaion
+<server>/api
 
 ## Test
 
