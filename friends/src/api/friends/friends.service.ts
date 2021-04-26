@@ -6,7 +6,7 @@ import { IFriendsservice } from './friends.interface';
 @Injectable()
 export class FriendsService implements IFriendsservice {
   async fetchAllUserProfiles() {
-    let query = 'select firstname,lastname,avatar from public.user';
+    let query = 'select id,firstname,lastname,avatar from public.user';
     let result = await pool.query(query);
     return result.rows;
   }
